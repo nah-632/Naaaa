@@ -1,0 +1,6 @@
+{
+  "name": "Finance Copilot",
+  "description": "Enterprise-Grade AI Financial Copilot and permanent strategic advisor for retail stores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

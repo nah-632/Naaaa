@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Decorative background outer rings -->
+    <path
+        android:pathData="M 54,54 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0"
+        android:strokeWidth="1"
+        android:strokeColor="#25FFFFFF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 54,54 m -42,0 a 42,42 0 1,1 84,0 a 42,42 0 1,1 -84,0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#10FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Bar 1 (Gold gradient) -->
+    <path
+        android:pathData="M 32,75 L 32,55 L 42,55 L 42,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="75"
+                android:endX="42"
+                android:endY="55"
+                android:type="linear">
+                <item android:color="#FFE07A5F" android:offset="0.0" />
+                <item android:color="#FFFFC896" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bar 2 (Gold gradient) -->
+    <path
+        android:pathData="M 49,75 L 49,42 L 59,42 L 59,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="49"
+                android:startY="75"
+                android:endX="59"
+                android:endY="42"
+                android:type="linear">
+                <item android:color="#FFE07A5F" android:offset="0.0" />
+                <item android:color="#FFFFD59A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bar 3 (Emerald gold gradient) -->
+    <path
+        android:pathData="M 66,75 L 66,30 L 76,30 L 76,75 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="75"
+                android:endX="76"
+                android:endY="30"
+                android:type="linear">
+                <item android:color="#FF287D4B" android:offset="0.0" />
+                <item android:color="#FF3DDC84" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Spline Trendline (Bright gold emerald glow) -->
+    <path
+        android:pathData="M 26,62 L 44,48 L 62,38 L 80,24"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FF3DDC84"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Trendline glowing dots -->
+    <path
+        android:pathData="M 80,24 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFF" />
+</vector>
